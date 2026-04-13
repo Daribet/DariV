@@ -1,7 +1,7 @@
 h1{
     text-align: center;
     font-size: 70px;
-    color:rgb(111, 163, 185) ;
+    color:rgb(139, 14, 14) ;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 img{
@@ -11,4 +11,28 @@ img{
     display: flex;
     justify-content: center;
     margin: 0 auto;
+}
+
+form{
+display: flex;
+flex-direction:column;
+align-items: center;
+margin-top: 20px;
+}
+
+label{
+    font-size: 20px;
+    color:red;
+    margin-bottom: 10px;}
+
+input{
+    height: 30px;
+    width: 200px;
+    margin-bottom: 10px;
+    border-radius: 25px;
+
+}
+.boton:hover{
+    background-color: firebrick;
+    cursor: pointer;
 }
